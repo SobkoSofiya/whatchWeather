@@ -1,0 +1,6 @@
+framework module Pods_WeatherWhatch_WatchKit_App {
+  umbrella header "Pods-WeatherWhatch WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

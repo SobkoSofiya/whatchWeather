@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609C494C1B5C9D2C6742ADD1 /* Pods_WeatherWhatch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBC9218FE30295365CE419 /* Pods_WeatherWhatch_WatchKit_Extension.framework */; };
+		622C55479B1D1174C9631533 /* Pods_WeatherWhatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63585E056BAD39E7D5384B3A /* Pods_WeatherWhatch.framework */; };
+		9FD5E1A230B239FD559F7352 /* Pods_WeatherWhatch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B46EC2B9CEE452EBF7A9912 /* Pods_WeatherWhatch_WatchKit_App.framework */; };
 		C375650225D694BA00827EE8 /* WeatherWhatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C375650125D694BA00827EE8 /* WeatherWhatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C375650825D694BA00827EE8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C375650625D694BA00827EE8 /* Interface.storyboard */; };
 		C375650A25D694BE00827EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C375650925D694BE00827EE8 /* Assets.xcassets */; };
@@ -19,6 +22,8 @@
 		C375652025D694BE00827EE8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375651F25D694BE00827EE8 /* ComplicationController.swift */; };
 		C375652225D694C000827EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C375652125D694C000827EE8 /* Assets.xcassets */; };
 		C375652525D694C000827EE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C375652425D694C000827EE8 /* Preview Assets.xcassets */; };
+		C375653925D697DC00827EE8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375653825D697DC00827EE8 /* ViewModel.swift */; };
+		C375655F25D699F500827EE8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375655E25D699F500827EE8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B46EC2B9CEE452EBF7A9912 /* Pods_WeatherWhatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherWhatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63585E056BAD39E7D5384B3A /* Pods_WeatherWhatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherWhatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C42FC48A9091C638409CC82 /* Pods-WeatherWhatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch.release.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch/Pods-WeatherWhatch.release.xcconfig"; sourceTree = "<group>"; };
+		73F167F97F98B6E20BB75C4A /* Pods-WeatherWhatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch.debug.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch/Pods-WeatherWhatch.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDBC9218FE30295365CE419 /* Pods_WeatherWhatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherWhatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD290DA2B9D60940DC794A16 /* Pods-WeatherWhatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch WatchKit App/Pods-WeatherWhatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		C37564FD25D694BA00827EE8 /* WeatherWhatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherWhatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C375650125D694BA00827EE8 /* WeatherWhatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherWhatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C375650725D694BA00827EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -80,25 +91,63 @@
 		C375652425D694C000827EE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C375652625D694C000827EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C375652725D694C000827EE8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C375653825D697DC00827EE8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C375655E25D699F500827EE8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D19775490EFD68D28482A821 /* Pods-WeatherWhatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch WatchKit Extension/Pods-WeatherWhatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E116AFA7FD7569BF5C226C5E /* Pods-WeatherWhatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch WatchKit Extension/Pods-WeatherWhatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		F0891E35D6778E84559F2C32 /* Pods-WeatherWhatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherWhatch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WeatherWhatch WatchKit App/Pods-WeatherWhatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		79D9EA5CA3B99C000C82F1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD5E1A230B239FD559F7352 /* Pods_WeatherWhatch_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C375650D25D694BE00827EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609C494C1B5C9D2C6742ADD1 /* Pods_WeatherWhatch_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF2860B7B03367B170DF522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622C55479B1D1174C9631533 /* Pods_WeatherWhatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA4FB0939165321E3AEE00F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73F167F97F98B6E20BB75C4A /* Pods-WeatherWhatch.debug.xcconfig */,
+				6C42FC48A9091C638409CC82 /* Pods-WeatherWhatch.release.xcconfig */,
+				F0891E35D6778E84559F2C32 /* Pods-WeatherWhatch WatchKit App.debug.xcconfig */,
+				BD290DA2B9D60940DC794A16 /* Pods-WeatherWhatch WatchKit App.release.xcconfig */,
+				E116AFA7FD7569BF5C226C5E /* Pods-WeatherWhatch WatchKit Extension.debug.xcconfig */,
+				D19775490EFD68D28482A821 /* Pods-WeatherWhatch WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C37564F625D694BA00827EE8 = {
 			isa = PBXGroup;
 			children = (
 				C375650525D694BA00827EE8 /* WeatherWhatch WatchKit App */,
 				C375651425D694BE00827EE8 /* WeatherWhatch WatchKit Extension */,
 				C37564FE25D694BA00827EE8 /* Products */,
+				AA4FB0939165321E3AEE00F0 /* Pods */,
+				CF3C608DF5C1D9486F7F2B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +176,8 @@
 			children = (
 				C375651525D694BE00827EE8 /* HostingController.swift */,
 				C375651725D694BE00827EE8 /* ContentView.swift */,
+				C375653825D697DC00827EE8 /* ViewModel.swift */,
+				C375655E25D699F500827EE8 /* Model.swift */,
 				C375651925D694BE00827EE8 /* ExtensionDelegate.swift */,
 				C375651B25D694BE00827EE8 /* NotificationController.swift */,
 				C375651D25D694BE00827EE8 /* NotificationView.swift */,
@@ -147,6 +198,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CF3C608DF5C1D9486F7F2B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63585E056BAD39E7D5384B3A /* Pods_WeatherWhatch.framework */,
+				1B46EC2B9CEE452EBF7A9912 /* Pods_WeatherWhatch_WatchKit_App.framework */,
+				BCDBC9218FE30295365CE419 /* Pods_WeatherWhatch_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,8 +215,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C375653225D694C000827EE8 /* Build configuration list for PBXNativeTarget "WeatherWhatch" */;
 			buildPhases = (
+				C367712E5976F1FB8416B37A /* [CP] Check Pods Manifest.lock */,
 				C37564FB25D694BA00827EE8 /* Resources */,
 				C375653125D694C000827EE8 /* Embed Watch Content */,
+				CBF2860B7B03367B170DF522 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,8 +234,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C375652E25D694C000827EE8 /* Build configuration list for PBXNativeTarget "WeatherWhatch WatchKit App" */;
 			buildPhases = (
+				FE81856A9C4750CBC3DB62AA /* [CP] Check Pods Manifest.lock */,
 				C37564FF25D694BA00827EE8 /* Resources */,
 				C375652D25D694C000827EE8 /* Embed App Extensions */,
+				79D9EA5CA3B99C000C82F1B8 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C375652A25D694C000827EE8 /* Build configuration list for PBXNativeTarget "WeatherWhatch WatchKit Extension" */;
 			buildPhases = (
+				E48B6B6EE0A147B26B1AEA4A /* [CP] Check Pods Manifest.lock */,
 				C375650C25D694BE00827EE8 /* Sources */,
 				C375650D25D694BE00827EE8 /* Frameworks */,
 				C375650E25D694BE00827EE8 /* Resources */,
+				C62C2F07206B95766EA85D7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +336,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C367712E5976F1FB8416B37A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherWhatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62C2F07206B95766EA85D7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherWhatch WatchKit Extension/Pods-WeatherWhatch WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherWhatch WatchKit Extension/Pods-WeatherWhatch WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherWhatch WatchKit Extension/Pods-WeatherWhatch WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E48B6B6EE0A147B26B1AEA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherWhatch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE81856A9C4750CBC3DB62AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherWhatch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C375650C25D694BE00827EE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,6 +433,8 @@
 				C375651A25D694BE00827EE8 /* ExtensionDelegate.swift in Sources */,
 				C375651E25D694BE00827EE8 /* NotificationView.swift in Sources */,
 				C375652025D694BE00827EE8 /* ComplicationController.swift in Sources */,
+				C375653925D697DC00827EE8 /* ViewModel.swift in Sources */,
+				C375655F25D699F500827EE8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +581,7 @@
 		};
 		C375652B25D694C000827EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E116AFA7FD7569BF5C226C5E /* Pods-WeatherWhatch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +605,7 @@
 		};
 		C375652C25D694C000827EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19775490EFD68D28482A821 /* Pods-WeatherWhatch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +629,7 @@
 		};
 		C375652F25D694C000827EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0891E35D6778E84559F2C32 /* Pods-WeatherWhatch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -491,6 +649,7 @@
 		};
 		C375653025D694C000827EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD290DA2B9D60940DC794A16 /* Pods-WeatherWhatch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -510,6 +669,7 @@
 		};
 		C375653325D694C000827EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F167F97F98B6E20BB75C4A /* Pods-WeatherWhatch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -522,6 +682,7 @@
 		};
 		C375653425D694C000827EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C42FC48A9091C638409CC82 /* Pods-WeatherWhatch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
